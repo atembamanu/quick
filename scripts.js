@@ -4,9 +4,11 @@ circle.draw({
   start: 0,
   maxValue: 100,
   outerCircleColor: "green",
-  innerCircleColor: "grey",
+  innerCircleColor: "#E9ECEF",
   size: 45,
   angleOfStart: -180,
+
+  textColor: "#495057",
 });
 
 var circle = new circleDonutChart("proj1");
@@ -15,9 +17,11 @@ circle.draw({
   start: 0,
   maxValue: 100,
   outerCircleColor: "green",
-  innerCircleColor: "grey",
+  innerCircleColor: "#E9ECEF",
   size: 45,
   angleOfStart: -180,
+
+  textColor: "#495057",
 });
 
 var circle = new circleDonutChart("proj2");
@@ -26,9 +30,11 @@ circle.draw({
   start: 0,
   maxValue: 100,
   outerCircleColor: "green",
-  innerCircleColor: "grey",
+  innerCircleColor: "#E9ECEF",
   size: 45,
   angleOfStart: -180,
+
+  textColor: "#495057",
 });
 
 var circle = new circleDonutChart("proj3");
@@ -37,9 +43,11 @@ circle.draw({
   start: 0,
   maxValue: 100,
   outerCircleColor: "red",
-  innerCircleColor: "grey",
+  innerCircleColor: "#E9ECEF",
   size: 45,
   angleOfStart: -180,
+
+  textColor: "#495057",
 });
 
 var circle = new circleDonutChart("proj4");
@@ -48,9 +56,11 @@ circle.draw({
   start: 0,
   maxValue: 100,
   outerCircleColor: "red",
-  innerCircleColor: "grey",
+  innerCircleColor: "#E9ECEF",
   size: 45,
   angleOfStart: -180,
+
+  textColor: "#495057",
 });
 
 var circle = new circleDonutChart("proj5");
@@ -59,9 +69,11 @@ circle.draw({
   start: 0,
   maxValue: 100,
   outerCircleColor: "red",
-  innerCircleColor: "grey",
+  innerCircleColor: "#E9ECEF",
   size: 45,
   angleOfStart: -180,
+
+  textColor: "#495057",
 });
 var circle = new circleDonutChart("proj6");
 circle.draw({
@@ -69,7 +81,8 @@ circle.draw({
   start: 0,
   maxValue: 100,
   outerCircleColor: "#80ABD9",
-  innerCircleColor: "grey",
+  innerCircleColor: "#E9ECEF",
   size: 45,
   angleOfStart: -180,
+  textColor: "#495057",
 });
