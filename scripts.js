@@ -5,9 +5,8 @@ circle.draw({
   maxValue: 100,
   outerCircleColor: "green",
   innerCircleColor: "#E9ECEF",
-  size: 45,
+  size: 60,
   angleOfStart: -180,
-
   textColor: "#495057",
 });
 
