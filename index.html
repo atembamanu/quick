@@ -23,18 +23,16 @@
             <div class="card-header">Projects Overview</div>
             <div class="card-body">
               <h5 class="card-title">60 Projects</h5>
-              <p class="card-text">
-                  Completed
-                <div class="item html">
-                    <p>45% </p>
-                    <svg width="160" height="160">
-                     <g>
-                      <title>Layer 1</title>
-                      <circle class="circle_animation" r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#6fdb6f" fill="none"/>
-                     </g>
-                    </svg>
+              <div class="row">
+                <div class="col-md-6">
+                  <div id="don1"></div>
                 </div>
-              </p>
+                <div class="col-md-6">
+                  <p class="card-text">
+                    Completed
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -100,51 +98,45 @@
               <tr>
                 <th scope="row">1</th>
                 <td>Sharepoint Data</td>
-                <td>98 %</td>
+                <td>
+                    <div id="proj1"></div>
+                    <!-- <div id="progressbar">
+                        <div id="count"> <span class="ml-3">78%</span> </div>
+                      </div> -->
+                </td>
                 <td>43 Days</td>
               </tr>
               <tr>
                 <th scope="row">2</th>
                 <td>Sharepoint Data</td>
-                <td>98 %</td>
+                <td><div id="proj2"></td>
                 <td class="text-danger">1 Year</td>
               </tr>
               <tr>
                 <th scope="row">3</th>
                 <td>Sharepoint Data</td>
-                <td class="text-danger">12 %</td>
+                <td><div id="proj3"></td>
                 <td>10 Hrs</td>
               </tr>
               <tr>
                 <th scope="row">4</th>
                 <td>Sharepoint Data</td>
-                <td>98 %</td>
+                <td><div id="proj4"></td>
                 <td class="text-danger">10 Months</td>
               </tr>
               <tr>
                 <th scope="row">5</th>
                 <td>Sharepoint Data</td>
-                <td class="text-danger">40 %</td>
+                <td><div id="proj5"></td>
                 <td>34 Days</td>
               </tr>
               <tr>
                 <th scope="row">6</th>
                 <td>Sharepoint Data</td>
-                <td>79 %</td>
+                <td><div id="proj6"></td>
                 <td>13 Hrs</td>
               </tr>
-              <tr>
-                <th scope="row">7</th>
-                <td>Sharepoint Data</td>
-                <td>87 %</td>
-                <td>12 Days</td>
-              </tr>
-              <tr>
-                <th scope="row">8</th>
-                <td>Sharepoint Data</td>
-                <td>90 %</td>
-                <td>1 Hr</td>
-              </tr>
+              
             </tbody>
           </table>
         </div>
@@ -256,5 +248,6 @@
     integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd"
     crossorigin="anonymous"
   ></script>
+  <script src="circleDonutChart.js"></script>
   <script src="scripts.js"></script>
 </html>

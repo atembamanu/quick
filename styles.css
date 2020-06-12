@@ -43,3 +43,38 @@ svg {
     stroke-dashoffset: 80;
   }
 }
+
+#don1 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#proj1,
+#proj2,
+#proj3,
+#proj4,
+#proj5,
+#proj6,
+#proj7,
+#proj8 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#progressbar {
+  background-color: grey;
+  border-radius: 13px;
+}
+
+#progressbar > #count {
+  background-color: green;
+  width: 78%;
+  height: 20px;
+  border-radius: 10px;
+}
